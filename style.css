@@ -1,6 +1,20 @@
+head {
+color:rgb(28, 75, 7)
+}
+
+a {
+color: #21580c
+}
+
+body {
+  margin: 0;
+  background: #720202;
+  color: #eeb007;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
 /* Portfolio styles */
 .content h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(28, 75, 7);
 }
 
 #portfolio {
@@ -23,19 +37,19 @@
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #000000;
+  color: #720202;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  background: #ffffff;
-  border: 1px solid #000000;
+  background: #21580c;
+  border: 1px solid #e99e13;
   border-radius: 12px;
   transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
 }
 
 #portfolio a:hover {
-  background: #000000;
-  color: #ffffff;
+  background: #e99e13;
+  color: #720202;
   transform: translateX(4px);
 }
 
